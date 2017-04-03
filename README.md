@@ -1,0 +1,3 @@
+# rest-fest-server
+
+a [Sails](http://sailsjs.org) application
