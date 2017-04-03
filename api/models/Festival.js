@@ -8,7 +8,25 @@
 module.exports = {
 
   attributes: {
+    name: {
+      type: 'string',
+      required: true
+    },
+    startDate: {
+      type: 'date',
+      required: true
+    },
+    endDate: {
+      type: 'date',
+      required: true
+    },
+    headliners: {
+      type: 'array'
+    },
+    location: {
+      type: 'string',
+      required: true
+    }
 
   }
 };
-
