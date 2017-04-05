@@ -16,16 +16,6 @@ module.exports.bootstrap = function(cb) {
   }
 
   Festival.create([
-    {
-      name: 'Awesome Fest 2017',
-      startDate: new Date('August 14, 2017'),
-      endDate: new Date('August 17, 2017'),
-      headliners: [
-        'Fish Stix',
-        'Jimmy Cracks Corn',
-        'Grapes of Rad'
-      ],
-      location: 'Jacksons Hole, WY',},
       {
         name: 'Awesome Fest 2017',
         startDate: new Date('August 14, 2017'),
@@ -82,7 +72,7 @@ module.exports.bootstrap = function(cb) {
         ],
         location: 'New York, NY',
       },
-      
+
     ]).exec(function (err){
       if (err) { return cb(err); }
       return cb();
